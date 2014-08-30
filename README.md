@@ -1,4 +1,3 @@
-ivw
-===
+# Industrievertretung Wittig (IVW)
 
-Ruby on Rails website for IVW
+Ruby on Rails Website für IVW
