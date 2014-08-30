@@ -10,7 +10,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get help" do
     get :help
     assert_response :success
-    assert_select "title", "IVW | Help"
+    assert_select "title", "IVW | Hilfe"
   end
 
   test "should get about" do
