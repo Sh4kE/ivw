@@ -11,6 +11,9 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def agency
+  def huber_runner
+  end
+
+  def klimasysteme2000
   end
 end

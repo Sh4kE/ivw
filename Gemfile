@@ -24,7 +24,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # The Bootstrap framework
 gem 'bootstrap-sass'
-gem 'sprockets'
+
+# add browser vendor prefixes automatically
+gem 'autoprefixer-rails'
+
+#gem 'sprockets'
 
 group :test do
   gem 'minitest-reporters'
