@@ -2,7 +2,11 @@
 <div class="center hero-unit">
 <h1>Industrievertretung Wittig</h1>
 <p>
-  Das ist die Homepage von Roland Wittig.
+  Das ist die Homepage von Roland Wittig.<br><br>
+
+  <%= Lorem::Base.new('paragraphs', 5).output.split(%r{\n+}).map {|p| "
+      " + p + "
+      "}.join("\n") %>
 </p>
 <%= image_tag("IVW_Logo.png", alt: "IVW Logo") %>
 </div>
