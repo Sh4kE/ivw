@@ -28,6 +28,8 @@ gem 'bootstrap-sass'
 # add browser vendor prefixes automatically
 gem 'autoprefixer-rails'
 
+gem 'lorem'
+
 #gem 'sprockets'
 
 group :test do
