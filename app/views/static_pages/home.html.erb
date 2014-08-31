@@ -4,9 +4,7 @@
 <p>
   Das ist die Homepage von Roland Wittig.<br><br>
 
-  <%= Lorem::Base.new('paragraphs', 5).output.split(%r{\n+}).map {|p| "
-      " + p + "
-      "}.join("\n") %>
+  <%= Lorem::Base.new('paragraphs', 5).output %>
 </p>
 <%= image_tag("IVW_Logo.png", alt: "IVW Logo") %>
 </div>
