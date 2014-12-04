@@ -12,6 +12,7 @@ html {
 
 body {
   padding-top: 60px;
+  background-color: #808080
 }
 
 section {
@@ -59,11 +60,15 @@ p {
 
 /* header */
 
+.navbar {
+  margin-bottom: 20px;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -75,6 +80,32 @@ p {
   }
 }
 
+.dropdown {
+  a {
+    color: #FFFFF;
+    &:hover {
+      color: $grayDarker;
+    }
+  }
+}
+
+/*
+* Main content
+*/
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
 /* Sticky footer */
 html {
   position: relative;
@@ -84,6 +115,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;

@@ -1,10 +1,40 @@
 <% provide(:title, "Home") %>
-<div class="center hero-unit">
-<h1>Industrievertretung Wittig</h1>
-<p>
-  Das ist die Homepage von Roland Wittig.<br><br>
 
-  <%= Lorem::Base.new('paragraphs', 5).output %>
-</p>
-<%= image_tag("IVW_Logo.png", alt: "IVW Logo") %>
+<div class="page-header">
+  <h1>Industrievertretung Wittig</h1>
 </div>
+
+<div class="center">
+  <%= image_tag("IVW_Logo.png", alt: "IVW Logo", height: "30%", width: "30%") %>
+</div>
+
+<div class="center hero-unit">
+  <p>
+    <h3>Als Handelsvertreter bin ich Ihr Ansprechpartner vor Ort für die Firmen:</h3>
+    <ul>
+      <li><%= link_to "Huber und Ranner", huber_ranner_path, class: "btn btn-lg btn-link" %></li>
+      <li><%= link_to "Klimasysteme2000", klimasysteme2000_path, class: "btn btn-lg btn-link" %></li>
+    </ul>
+  </p>
+</div>
+<div>
+  <p>
+    Mit mehr als 20 Jahren Berufserfahrung im technischen und kaufmännischen
+    Vertrieb von Klima- und Lüftungstechnischen Komponenten erwartet sie hier:
+    <ul>
+      <li>Kostenlose Erstellung von Angeboten</li>
+      <li>Technische / kaufmännische Beratung</li>
+      <li>Betreuung von Planungen</li>
+      <li>Produktschulungen und Präsentationen</li>
+      <li>Auftragsverhandlung und Weitergabe</li>
+      <li>Annahme von Mängelanzeigen</li>
+      <li>Baustellenbesichtigungen</li>
+    </ul>
+  </p>
+
+  Unsere Angebote entsprechen als "State of the Art" dem aktuell gültigen Regelwerk.
+
+</div>
+
+<!-- <%= image_tag("hr_case.png", alt: "hr case", height: "60%", width: "60%") %> -->
+<!-- <%= Lorem::Base.new('paragraphs', 1).output %> -->
