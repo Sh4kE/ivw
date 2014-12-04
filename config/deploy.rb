@@ -44,6 +44,9 @@ set :default_environment, {
   'PATH' => "/opt/ruby-enterprise/bin/:$PATH"
 }
 
+require 'rvm/capistrano'
+require 'bundler/capistrano'
+
 namespace :deploy do
 
   after :restart, :clear_cache do
