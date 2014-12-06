@@ -40,9 +40,7 @@ set :user, "ivwittig"
 # tells capistrano not to use sudo
 set :use_sudo, false
 
-set :default_environment, {
-  'PATH' => "/opt/ruby-enterprise/bin/:$PATH"
-}
+set :default_shell, "/bin/bash -l"
 
 namespace :deploy do
 
