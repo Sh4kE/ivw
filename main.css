@@ -1,3 +1,11 @@
+:root{
+    --dark-blue:   #0000FF;
+    --lighter-dark-blue: #000099;
+    --middle-blue: #0066CC;
+    --light-blue:  #D1E3F6;
+    --moccasin: #FAEBD7;
+}
+
 .right {
   float: right;
 }
@@ -13,5 +21,50 @@ img.center {
 }
 
 .jumbotron {
-  background-color: #A9A9A9;
+  background-color: var(--moccasin);
+}
+
+.jumbotron li {
+    font-size: 150%;
+}
+
+address {
+  font-size: 120%;
+}
+
+.plz {
+  font-size: 150%;
+}
+
+.nav {
+  font-size: 150%;
+}
+
+hr {
+  color: grey;
+  background-color: grey;
+  height: 1px;
+}
+
+/* tab color */
+.nav-tabs>li>a {
+  background-color: var(--middle-blue);
+  border-color: var(--lighter-dark-blue);
+  color: white;
+}
+
+/* active tab color */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: var(lighter-dark-blue);
+  background-color: var(--light-blue);
+  border: 1px solid var(lighter-dark-blue);
+}
+
+/* hover tab color */
+.nav-tabs>li>a:hover {
+  color: #fff;
+  background-color: var(--lighter-dark-blue);
+  border: 1px solid var(dark-blue);
 }
