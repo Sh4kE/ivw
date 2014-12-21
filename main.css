@@ -21,7 +21,7 @@ img.center {
 }
 
 .jumbotron {
-  background-color: var(--moccasin);
+  background-color: #FAEBD7;
 }
 
 .jumbotron li {
@@ -48,8 +48,8 @@ hr {
 
 /* tab color */
 .nav-tabs>li>a {
-  background-color: var(--middle-blue);
-  border-color: var(--lighter-dark-blue);
+  background-color: #0066CC;
+  border-color: #000099;
   color: white;
 }
 
@@ -57,14 +57,14 @@ hr {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: var(lighter-dark-blue);
-  background-color: var(--light-blue);
-  border: 1px solid var(lighter-dark-blue);
+  color: #000099;
+  background-color: #D1E3F6;
+  border: 1px solid #000099;
 }
 
 /* hover tab color */
 .nav-tabs>li>a:hover {
   color: #fff;
-  background-color: var(--lighter-dark-blue);
-  border: 1px solid var(dark-blue);
+  background-color: #000099;
+  border: 1px solid #0000FF;
 }
