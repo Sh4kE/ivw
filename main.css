@@ -40,6 +40,9 @@ address {
   font-size: 150%;
 }
 
+/* Inserting tab spaces to align text vertically */
+.a { display: inline-block; width: 200px; }
+
 hr {
   color: grey;
   background-color: grey;
